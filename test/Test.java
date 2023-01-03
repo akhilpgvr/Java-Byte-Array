@@ -1,13 +1,10 @@
-import java.nio.charset.Charset;
-
 public class Test{
     public static void main(String[] args){
         String name = "akhil";
         byte[] nameAsByte = name.getBytes();
-        for(byte i : nameAsByte){
-            System.out.println(i);
+        for(byte nameByte : nameAsByte){
+            System.out.println(nameByte);
         }
-        System.out.println(new String(nameAsByte));
-        System.out.println(name1AsByte);
+        System.out.println(nameAsByte);    
     }
 }
