@@ -1,0 +1,24 @@
+package exam;
+import java.util.*;
+public class Main extends Thread {
+	public static void main(String args[]) {
+//		ArrayList<Integer> arr=new ArrayList<Integer>();
+//		Scanner sc = new Scanner(System.in);
+//		int iter=sc.nextInt();
+//		for(int i=0;i<iter;i++) {
+//			arr.add(sc.nextInt());
+//		}
+//		System.out.println(arr);
+//		HashSet<Integer> arr1=new HashSet<Integer>(arr);
+//		System.out.println(arr1);
+		ArrayList<Integer> arr = new ArrayList<Integer>();
+		arr.add(12);
+		arr.add(25);
+		arr.add(35);
+		arr.add(45);
+		System.out.println(Collections.min(arr));
+		System.out.println(Collections.max(arr));
+		System.out.println(Collections.list(null));
+		System.out.println(arr);
+	}
+}

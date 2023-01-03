@@ -1,0 +1,13 @@
+package exam;
+import java.util.regex.*;
+public class RE {
+	public static void main(String args[]) {
+		boolean res = Pattern.matches("^[a-zA-Z ]+[0-9]*","  Akhil buddy");
+		if(res) {
+			System.out.println("String matches Pattern");
+		}
+		else {
+			System.out.println("String not matches");
+		}
+	}
+}

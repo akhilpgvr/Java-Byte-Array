@@ -1,0 +1,32 @@
+package exam;
+import java.util.Collections;
+import java.util.LinkedList;
+public class Test{
+	
+	public static void search(LinkedList li,int element) {
+		if(li.contains(element)) {
+			System.out.println("Element found at position: "+li.indexOf(element));
+		}
+		else {
+			System.out.println("Element Doesnot Exits");
+		}
+	}
+	
+	public static void sort(LinkedList li) {
+//		
+		Collections.sort(li);
+		System.out.println(li);
+	}
+	
+	public static void main(String[] args) {
+		LinkedList<Integer> li=new LinkedList<Integer>();
+		li.add(12);
+		li.addFirst(32);
+		li.addLast(56);
+		li.add(10);
+		System.out.println("Sorted Linked list: "+ li);
+		search(li,56);
+		sort(li);
+		
+	}
+}

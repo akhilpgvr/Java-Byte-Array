@@ -1,5 +1,4 @@
 import java.nio.charset.StandardCharsets;
-
 public class Test{
     public static void main(String[] args){
         String name = "java bytes";
@@ -8,7 +7,7 @@ public class Test{
         for(byte i : nameAsByte){
             System.out.println(i);
         }
-        // System.out.prinln("Coverted value from byte [] to String : ");
+        System.out.println("Coverted value from byte [] to String : ");
         System.out.println(new String(nameAsByte,StandardCharsets.UTF_8));
     }
 }

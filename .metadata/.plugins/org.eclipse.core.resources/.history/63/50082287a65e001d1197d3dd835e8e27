@@ -1,0 +1,12 @@
+package exam;
+import java.util.LinkedList;
+public class Test{
+	public static void main(String[] args) {
+		LinkedList<Integer> li=new LinkedList<Integer>();
+		li.add(12);
+		li.addFirst(32);
+		li.addLast(56);
+		li.add(10);
+		System.out.println(li);
+	}
+}
